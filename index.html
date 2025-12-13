@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="src/image/news1.png" type="image/x-icon">
+    <title>Purrfect Kitchen</title>
+</head>
+<body class="bg-stone-800 font-playpen text-desk">
+
+<!-- bagian navbar -->
+<nav class="bg-navbar w-full fixed top-0 left-0 flex items-center justify-between px-3 py-2 md:px-8 md:py-4 lg:px-32 shadow-[0_4px_15px_rgba(0,0,0,.2)] z-30">
+    <a href="#home" class="text-base md:text-xl font-bold text-tesk1">Purrfect</a>
+    <ul id="menu" class="bg-backdrop w-40 p-4 space-y-4 text-base absolute top-11 right-14 rounded-lg hidden lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-6 lg:bg-transparent lg:w-auto lg:p-0">
+        <li><a href="#home" class="text-desk hover:text-gray-700">Home</a></li>
+        <li><a href="#about" class="text-desk hover:text-gray-700">About</a></li>
+        <li><a href="#features" class="text-desk hover:text-gray-700">Features</a></li>
+        <li><a href="#gallery" class="text-desk hover:text-gray-700">Gallery</a></li>
+        <li><a href="pages/presskit.html" target="_blank" class="text-desk hover:text-gray-700">Presskit</a></li>
+        <li><a href="pages/collection.html" class="text-desk hover:text-gray-700">Collection</a></li>
+        <li><a href="#news" class="text-desk hover:text-gray-700">News</a></li>
+        <li><a href="#contact" class="text-desk hover:text-gray-700">Contact</a></li>
+        <li><a href="https://mot-universe.com/purrfectkitchen-privacypolicy" target="_blank" class="text-desk hover:text-gray-700">Privacy Policy</a></li>
+    </ul>
+    <div class="lg:hidden">
+        <button id="TombolMenu" name="TombolMenu" type="button" class="cursor-pointer text-desk text-xl">
+            <i class="ri-menu-line"></i>
+        </button>
+        <button id="TombolCloseMenu" name="TombolCloseMenu" type="button" class="cursor-pointer text-desk text-xl hidden">
+            <i class="ri-close-large-line"></i>
+        </button>
+    </div>
+
+</nav>
+<!-- bagian navbar -->
+
+<!-- bagian home -->
+<section id="home" class="relative flex items-center justify-center px-3 w-full min-h-screen bg-[url(image/Bg_Home.jpg)] bg-cover bg-center bg-no-repeat">
+    <div class="absolute w-full min-h-screen bg-backdrop opacity-75"></div>
+    <div class="relative inset-0 flex flex-col items-center justify-center px-4 md:px-8 lg:px-32 lg:flex">
+        <div class="flex items-center justify-center pb-7">
+            <img src="src/image/logo.png" class="w-3xs md:w-md lg:w-xl" alt="" srcset="">
+        </div>
+        <div class="mt-5 pb-20">
+            <h1 class="text-lg text-center text-tesk1 font-bold font-nunito tracking-wider md:text-4xl lg:text-5xl lg:font-extrabold">Bangun Toko Jajan Impianmu! </h1>
+            <p class="text-center text-desk text-sm/loose font-playpen mt-3 md:text-base mx-auto px-4 lg:max-w-4xl lg:text-lg/relaxed">Temani Jetset si kucing lucu mengelola toko jajan pertamanya, menjelajahi dunia penuh warna, membuka berbagai jajanan tradisional Indonesia, mengenakan kostum unik, dan melayani pelanggan menggemaskan di dunia kucing isekai yang penuh kejutan. <br> Lalu jadikan tokomu yang paling terkenal!</p>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.MoT.PurrfectKitchen&pli=1" target="_blank">
+            <button class="bg-bgA_dark flex items-center space-x-5 px-6 py-2 border-4 border-borderA rounded-full shadow-[0_10px_25px_rgba(0,0,0,.35)] cursor-pointer transition-all duration-150 hover:brightness-110 hover:scale-110 active:translate-y-1 active:shadow-[0_3px_0_#5C3A32] focus:outline-none focus:ring-2 focus:ring-tesk1">
+            <div class="">
+                <img src="src/image/playstore_icon.png" class="w-7" alt="" srcset="">
+            </div>
+            <div class="">
+                <p class="text-left text-xs text-tesk1 font-roboto lg:text-md">GET IT ON</p>
+                <P class="text-left font-bold text-base text-tesk1 font-roboto lg:text-lg">Google Play</P>
+            </div>
+        </button>
+        </a>
+        
+        
+    </div>
+</section>
+<!-- bagian home -->
+
+<!-- bagian about -->
+<section id="about" class="bg-about bg-[url(image/pawPattern2.png)] bg-cover bg-center bg-no-repeat w-full p-3">
+    <div class=" flex flex-col text-backdrop py-10 md:px-8 lg:px-32 lg:flex-row lg:space-x-10">
+        <div class="md:pt-5">
+            <div class="md:flex md:space-x-10 lg:space-x-2">
+                <div class="lg:pr-10">
+                    <img src="src/image/karakter_about.png" alt="" class="w-3xs mx-auto py-5 md:w-2xl lg:w-2xl lg:pl-10">
+                </div>
+                <div class="mt-2 lg:flex lg:flex-col lg:justify-center lg:px-10">
+                    <h1 class="text-2xl text-center font-nunito font-extrabold md:text-left lg:text-4xl">About Game</h1>
+                    <p class="text-sm/relaxed text-justify indent-6 pt-5 md:text-left lg:text-base"><span class="font-bold">Purrfect Kitchen</span> adalah game idle simulasi tentang seekor kucing kecil yang memulai hidup baru di dunia lain, dengan satu tujuan sederhana: membuka toko jajan dan menemukan kembali seseorang yang ia rindukan.<br></p>
+                    <p class="text-sm/relaxed text-justify indent-6 pt-2 pb-5 lg:text-base">Game ini menggabungkan gameplay idle santai dengan cerita emosional, visual imut, dan budaya kuliner Indonesia ke dalam dunia kucing penuh warna.</p>
+                </div>
+            </div>
+            <div class=" my-5 md:flex md:space-x-10 md:pt-10">
+                <div class="md:pr-10">
+                    <h2 class="text-2xl text-center font-nunito font-extrabold md:text-left lg:text-4xl">Budaya dalam Game</h2>
+                    <p class="text-sm/relaxed text-justify indent-6 pt-5 md:text-left lg:text-base/relaxed">Game ini juga dibuat sebagai bentuk cinta pada kekayaan jajanan tradisional Indonesia. Setiap makanan di dalam game memiliki galeri informasi dan visual asli untuk mengenalkan pemain pada ragam kuliner nusantara.</p>
+                </div>
+                <div class="md:pr-10">
+                    <img src="src/image/food_about.png" alt="" srcset="" class="w-3xs mx-auto py-10 md:w-2xl">
+                </div>
+            </div>
+        </div>
+        <div class="relative max-w-sm mx-auto mt-10 md:max-w-3xl">
+            <!-- Badge Judul -->
+            <div class="absolute top-32 left-1/2 -translate-x-1/2 z-20 bg-bgA text-black text-sm font-bold px-7 py-1 rounded-full border-2 border-pk3 shadow-md">
+                <h2 class="text-xl text-tesk1 font-nunito font-extrabold lg:text-xl">Kisah Jetset</h2>
+            </div>
+
+            <!-- Gambar -->
+            <div class="flex justify-center mt-2 -ml-7">
+                <img src="src/image/jetset.png" class="w-44" alt="">
+            </div>
+
+            <!-- Card Konten -->
+            <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                <p class="text-sm leading-relaxed text-justify py-2 indent-6">
+                    Jetset hanyalah seekor kucing rumahan biasa…
+                    hingga pada suatu hari, sebuah kecelakaan mengubah segalanya.
+                </p>
+                <p class="text-sm leading-relaxed text-justify py-2 indent-6">
+                        Saat ia membuka mata, dunia sudah berbeda.
+                    Jetset kini terbangun di sebuah tempat asing — dunia di mana semua kucing hidup seperti manusia:
+                    berjalan dengan dua kaki, bekerja, belajar, dan bermimpi.
+                </p>
+
+                <p class="text-sm leading-relaxed text-justify py-2 indent-6">
+                        Sendirian, kebingungan, dan kehilangan orang yang sangat ia sayangi, Jetset pun mulai mencari ke seluruh penjuru dunia kucing.
+
+                    Namun ada satu hal kecil…
+                    yang terus ia ingat dengan jelas.,<br>
+
+                    <span class="font-bold">Pemiliknya sangat suka jajan.</span>
+                </p>
+
+                <p class="text-sm leading-relaxed text-justify py-2 indent-6">
+                    Dari kenangan itulah, sebuah ide pun lahir.
+
+                    Jetset membuka sebuah toko jajan kecil —
+                    bukan hanya untuk berdagang…
+                    tapi sebagai harapan…
+
+                    Bahwa suatu hari, orang yang ia rindukan akan menemukannya kembali.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="bg-gameplay">
+    <div class="px-4 py-20 md:px-10 lg:flex lg:justify-center lg:space-x-10 lg:px-32">
+        <div class="">
+            <img src="src/image/JetsetFoto.jpg" alt="" class="w-52 mx-auto border-4 border-bgA rounded-2xl shadow-lg lg:w-xs">
+            
+        </div>
+        <div class="mt-5 lg:mt0 lg:mt-0 lg:max-w-4xl lg:pl-10">
+            <h2 class="text-xl text-center font-bold font-nunito mt-8 lg:text-left lg:text-4xl lg:mt-0">Lebih dari Sekadar Game</h2>
+            <p class="text-sm/relaxed text-justify indent-6 mt-2 lg:text-base lg:pr-48">Purrfect Kitchen bukan hanya tentang memasak.
+                Bukan hanya tentang kucing.
+
+                Ini adalah cerita tentang:
+                kehilangan, harapan kecil,
+                dan perjuangan sederhana untuk pulang. <br>
+
+                Dan kamu…
+                adalah bagian dari perjalanan itu.
+            </p>
+            <p class="text-sm/relaxed text-justify italic indent-6 mt-8 lg:text-base lg:pr-48">"Kami dedikasikan game ini untuk kucing tercinta kami "JETSET" yang telah tiada. <br>
+                Dia mudah sekali akrab dengan orang lain, suka bermain, dan sangat menggemaskan.
+                Dia juga sangat suka jajan, terutama es krim. Hingga suatu ketika dia pernah hilang selama 3 hari, kami sudah mencarinya ke mana-mana. Sampai akhirnya pada malam hari saat hujan, dia kembali, namun dengan kondisi yang sangat lemah.
+                Entah apa yang terjadi padanya, kami menduga dia keracunan. Semalaman kami mendampinginya dalam kondisi kritis, namun keesokan harinya dia pergi untuk selamanya.<br>
+                Semoga dia bahagia di surga kucing sana."
+            </p>
+        </div>
+    </div>
+
+</section>
+<!-- bagian about -->
+
+<!-- bagian features -->
+<section id="features" class="bg-features bg-[url(image/pawPatternFeatures.png)] bg-cover bg-center bg-no-repeat w-full min-h-screen">
+    <h2 class="pt-14 pb-1 text-2xl text-center font-nunito font-extrabold md:pt-20 lg:text-4xl">Features</h2>
+    <h3 class="pb-5 text-md text-center font-nunito lg:text-lg">Di Purrfect Kitchen, kamu akan</h3>
+    <div class="grid grid-cols-2 grid-rows-4 gap-4 p-4 md:grid-cols-3 md:grid-rows-3 md:px-10 lg:px-32 lg:grid-cols-4 lg:grid-rows-2 lg:gap-10">
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">1</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Idle Game</h4>
+            <p class="text-xs/relaxed lg:text-base">Mengelola toko jajan secara idle</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">2</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Explore Culinary</h4>
+            <p class="text-xs/relaxed lg:text-base">Membuka berbagai jajanan tradisional Indonesia</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">3</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Collection</h4>
+            <p class="text-xs/relaxed lg:text-base">Mengoleksi kostum unik bertema pop culture</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">4</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Comic Story</h4>
+            <p class="text-xs/relaxed lg:text-base">Mengikuti cerita dalam bentuk komik</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">5</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Days</h4>
+            <p class="text-xs/relaxed lg:text-base">Mengalami siklus siang dan malam</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">6</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Puzzle</h4>
+            <p class="text-xs/relaxed lg:text-base">Menyelesaikan puzzle sederhana</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">7</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Atraction</h4>
+            <p class="text-xs/relaxed lg:text-base">Menarik pelanggan dengan berbagai atraksi unik</p>
+        </div>
+        <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+            <h3 class="text-4xl font-extrabold lg:text-6xl">8</h3>
+            <h4 class="text-lg font-bold font-nunito mt-4 lg:text-2xl">Wiki Food</h4>
+            <p class="text-xs/relaxed lg:text-base">Berisi informasi dan foto asli setiap jajan tradisional</p>
+        </div>
+    </div>
+    <div class="">
+        <img src="src/image/fitur.png" alt="" class="w-xs mx-auto py-10 md:w-lg lg:w-4xl">
+    </div>
+</section>
+<!-- bagian features -->
+
+<!-- bagian gallery -->
+<section id="gallery" class="bg-gallery w-full pb-10">
+    <h2 class="pt-16 text-2xl text-center font-nunito font-extrabold text-darkText lg:text-4xl">Gallery</h2>
+    <div class="grid grid-cols-2 gap-4 p-4 mt-5 md:p-8 md:grid-cols-6 lg:px-32 lg:gap-10">
+        <div class="">
+            <img src="src/image/gallery/g2.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+        <div class="">
+            <img src="src/image/gallery/g1.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+        <div class="">
+            <img src="src/image/gallery/g3.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+        <div class="">
+            <img src="src/image/gallery/g4.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+        <div class="">
+            <img src="src/image/gallery/g5.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+        <div class="">
+            <img src="src/image/gallery/g6.jpg" alt="" class="w-full rounded-md shadow-md border-2 border-borderB">
+        </div>
+    </div>
+</section>
+<!-- bagian gallery -->
+
+<!-- bagian News -->
+<section id="news" class="bg-news w-full">
+    <div class="mx-auto px-5 pt-14 pb-5 md:pt-20 md:px-8 lg:px-32">
+        <div class="border-b border-features mb-5 flex justify-between text-sm">
+            <div class="text-darkText flex items-center pb-2 pr-2 border-b-2 border-darkText">
+                
+                <a href="#" class="font-semibold inline-block lg:text-base">News / Devlog</a>
+            </div>
+            <a href="#" class="text-darkText lg:text-base">See All</a>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-4 pb-20 md:px-8 md:gap-4 lg:px-32 lg:grid-cols-5">
+        <!-- card 1 -->
+        <div class="rounded bg-gallery border-2 border-pk3 overflow-hidden shadow-lg flex flex-col">
+            <a href="#"></a>
+            <div class="relative">
+                <a href="#">
+                    <img class="w-full h-56 object-cover md:h-40 lg:h-60"
+                        src="src/image/news1.png"
+                        alt="">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-bgA_dark1 opacity-25">
+                    </div>
+                </a>
+            </div>
+            <div class="px-6 py-4 mb-auto">
+                <a href="#"
+                    class="text-lg text-darkText font-bold hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">New Costume Update</a>
+                <p class="text-features text-sm">
+                    Update terbaru kini hadir dengan berbagai kostum baru yang lucu dan menggemaskan untuk Jetset!
+                </p>
+            </div>
+            <div class="px-6 py-2 flex flex-row items-center justify-between bg-about">
+                <span href="#" class="py-1 text-xs font-regular text-darkText mr-1 flex flex-row items-center">
+                    <i class="ri-history-fill text-lg"></i>
+                    <span class="ml-1">2 days ago</span>
+                </span>
+            </div>
+        </div>
+        <!-- card 1 -->
+
+        <!-- card 2 -->
+         <div class="rounded bg-gallery border-2 border-pk3 overflow-hidden shadow-lg flex flex-col">
+            <a href="#"></a>
+            <div class="relative">
+                <a href="#">
+                    <img class="w-full h-56 object-cover md:h-40 lg:h-60"
+                        src="src/image/news2.jpg"
+                        alt="">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-bgA_dark1 opacity-25">
+                    </div>
+                </a>
+            </div>
+            <div class="px-6 py-4 mb-auto">
+                <a href="#"
+                    class="text-lg text-darkText font-bold hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Comic Chapter</a>
+                <p class="text-features text-sm">
+                    Chapter terbaru dari komik Jetset sudah tersedia! Ikuti petualangan serunya di dunia kucing isekai.
+                </p>
+            </div>
+            <div class="px-6 py-2 flex flex-row items-center justify-between bg-about">
+                <span href="#" class="py-1 text-xs font-regular text-darkText mr-1 flex flex-row items-center">
+                    <i class="ri-history-fill text-lg"></i>
+                    <span class="ml-1">5 days ago</span>
+                </span>
+            </div>
+        </div>
+        <!-- card 2 -->
+
+        <!-- card 3 -->
+         <div class="rounded bg-gallery border-2 border-pk3 overflow-hidden shadow-lg flex flex-col">
+            <a href="#"></a>
+            <div class="relative">
+                <a href="#">
+                    <img class="w-full h-56 object-cover md:h-40 lg:h-60"
+                        src="src/image/news3.jpg"
+                        alt="">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-bgA_dark1 opacity-25">
+                    </div>
+                </a>
+            </div>
+            <div class="px-6 py-4 mb-auto">
+                <a href="#"
+                    class="text-lg text-darkText font-bold hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">New Level</a>
+                <p class="text-features text-sm">
+                    Level baru telah ditambahkan! Bantu Jetset mengelola tokonya dengan lebih banyak pelanggan dan tantangan seru.
+                </p>
+            </div>
+            <div class="px-6 py-2 flex flex-row items-center justify-between bg-about">
+                <span href="#" class="py-1 text-xs font-regular text-darkText mr-1 flex flex-row items-center">
+                    <i class="ri-history-fill text-lg"></i>
+                    <span class="ml-1">1 week ago</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- bagian News -->
+
+<!-- bagian contact -->
+<section id="contact" class="bg-contact w-full min-h-3/4">
+    <div class="flex flex-col items-center justify-center px-4 py-20 text-center text-desk">
+        <h2 class="text-3xl font-bold lg:text-7xl">Pawsome Gate</h2>
+        <p class="text-xl font-medium lg:text-4xl lg:pt-2">Meow Lovers</p>
+        <div class="flex flex-col space-y-2 mt-20 text-center">
+            <div class="text-sm lg:text-base">
+                <i class="ri-phone-fill"></i>
+                +62 831 7502 0990
+            </div>
+            <div class="text-sm lg:text-base">
+                <i class="ri-mail-open-fill"></i>
+                contact@mot-universe.com
+            </div>
+            <div class="text-sm lg:text-base">
+                <i class="ri-map-pin-2-fill"></i>
+                Imperial Exclusive, Jl. Graha Mulia Raya
+                C-8, Tasikmadu, Kec. Lowokwaru, Kota
+                Malang, Jawa Timur 65143
+            </div>
+        </div>
+        <div class="flex space-x-3 mt-8 lg:space-x-5">
+            <a href="https://www.instagram.com/purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61583467877436" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="https://www.tiktok.com/@purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-tiktok-fill"></i>
+            </a>
+            <a href="https://x.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-twitter-x-fill"></i>
+            </a>
+            <a href="https://www.youtube.com/@PurrfectKitchenOfficial" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-youtube-fill"></i>
+            </a>
+            <a href="https://mot-universe.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-global-fill"></i>
+            </a>
+        </div>
+        <p class="text-xs mt-32">Copyright &copy MoT Studio, 2025</p>
+    </div>
+</section>
+<!-- bagian contact -->
+
+<script>
+    const tombolMenu = document.getElementById('TombolMenu');
+    const tombolCloseMenu = document.getElementById('TombolCloseMenu');
+    const menuList = document.getElementById('menu');
+
+    tombolMenu.addEventListener('click', function() {
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+        menuList.classList.toggle('hidden');
+    });
+
+    tombolCloseMenu.addEventListener('click', function() {
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+        menuList.classList.toggle('hidden');
+    });
+
+    const mobileLinks = menuList.querySelectorAll('a');
+
+     mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+        menuList.classList.add('hidden');
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+    });
+  });
+</script>
+</body>
+</html>
