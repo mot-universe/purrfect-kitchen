@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+        --font-nunito: 'Nunito', sans-serif;
+        --font-playpen: 'Playpen Sans', sans-serif;
+        --font-roboto: 'Roboto', sans-serif;
+        --color-tesk1: #F6E07F;
+        --color-bgA: #7E5147;
+        --color-bgA_dark: #7E5147;
+        --color-bgA_dark1: #6F463E;
+        --color-borderA: #5C3A34;
+        --color-borderB: #6B433B;
+        --color-pk3: #F6C8A6;
+        --color-backdrop: #322D2C;
+        --color-desk: #F3E9C7;
+
+        --color-darkText: #322D2C;
+
+        --color-navbar:#7E5147;
+        --color-about:#F3E9C7;
+        --color-gameplay:#6F463E;
+        --color-features:#9C6B60;
+        --color-gallery:#F3E9C7;
+        --color-news:#F6E07F;
+        --color-contact:#7E5147;
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="icon" href="../src/image/news1.png" type="image/x-icon">
+    <title>Purrfect Kitchen Collection</title>
+</head>
+<body class="bg-gameplay font-playpen text-desk">
+
+<!-- bagian navbar -->
+<nav class="bg-navbar w-full fixed top-0 left-0 flex items-center justify-between px-3 py-2 md:px-8 md:py-4 lg:px-32 shadow-[0_4px_15px_rgba(0,0,0,.2)] z-30">
+    <a href="../index.html" class="text-base md:text-xl font-bold text-tesk1">Purrfect</a>
+    <ul id="menu" class="bg-backdrop w-40 p-4 space-y-4 text-base absolute top-11 right-14 rounded-lg hidden lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-6 lg:bg-transparent lg:w-auto lg:p-0">
+        <li><a href="#" class="text-desk hover:text-gray-700">Skin</a></li>
+        <li><a href="food.html" class="text-desk hover:text-gray-700">Food</a></li>
+        
+    </ul>
+    <div class="lg:hidden">
+        <button id="TombolMenu" name="TombolMenu" type="button" class="cursor-pointer text-desk text-xl">
+            <i class="ri-menu-line"></i>
+        </button>
+        <button id="TombolCloseMenu" name="TombolCloseMenu" type="button" class="cursor-pointer text-desk text-xl hidden">
+            <i class="ri-close-large-line"></i>
+        </button>
+    </div>
+
+</nav>
+<!-- bagian navbar -->
+
+<section class="w-full px-3 py-10">
+    <h1 class="mt-5 text-xl text-tesk1 text-center font-extrabold font-nunito lg:mt-10 lg:text-4xl">All Skin Collection</h1>
+    <div class="grid grid-cols-3 gap-2 p-4 mt-5 md:p-8 md:grid-cols-4 lg:px-32 lg:gap-10 lg:grid-cols-6">
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/Pikachu.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pikachu</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/Batman.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Batman</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/bebek.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Bebek</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/catzilla.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Catzilla</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/default.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Owner</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/gorilla.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Gorilla</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/Gundam.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Guncat</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/hoodie.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Hoodie</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/kunti.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Kunti</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/pawlice_A.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pawlice1</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/pocong.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pocong</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/polisi_B.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pawlice2</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/pramuka.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pramuka1</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/pramuka_A.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pramuka2</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/Spiderman.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Spidercat</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/tentara_A.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Tentara1</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/tentara_B.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Tentara2</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+        <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                    <div class="relative flex flex-col justify-center">
+                        <img src="../src/image/SkinCard/ultracat.png" class="z-10" alt="" srcset="">
+                        <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                        </svg>
+                    </div>
+                    <!-- kotak bawah -->
+                    <div class="relative w-full bg-navbar"> 
+                        <h3 class="text-xs/loose font-bold tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Ultracat</h3>
+                </div>
+                    <!-- kotak bawah -->
+                </div>
+        </div>
+    </div>
+</section>
+
+<!-- bagian contact -->
+<section id="contact" class="bg-contact w-full min-h-3/4">
+    <div class="flex flex-col items-center justify-center px-4 py-20 text-center text-desk">
+        <h2 class="text-3xl font-bold lg:text-7xl">Pawsome Gate</h2>
+        <p class="text-xl font-medium lg:text-4xl lg:pt-2">Meow Lovers</p>
+        <div class="flex flex-col space-y-2 mt-20 text-center">
+            <div class="text-sm lg:text-base">
+                <i class="ri-phone-fill"></i>
+                +62 831 7502 0990
+            </div>
+            <div class="text-sm lg:text-base">
+                <i class="ri-mail-open-fill"></i>
+                contact@mot-universe.com
+            </div>
+            <div class="text-sm lg:text-base">
+                <i class="ri-map-pin-2-fill"></i>
+                Imperial Exclusive, Jl. Graha Mulia Raya
+                C-8, Tasikmadu, Kec. Lowokwaru, Kota
+                Malang, Jawa Timur 65143
+            </div>
+        </div>
+        <div class="flex space-x-3 mt-8 lg:space-x-5">
+            <a href="https://www.instagram.com/purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61583467877436" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="https://www.tiktok.com/@purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-tiktok-fill"></i>
+            </a>
+            <a href="https://x.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-twitter-x-fill"></i>
+            </a>
+            <a href="https://www.youtube.com/@PurrfectKitchenOfficial" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-youtube-fill"></i>
+            </a>
+            <a href="https://mot-universe.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl">
+                <i class="ri-global-fill"></i>
+            </a>
+        </div>
+        <p class="text-xs mt-32">Copyright &copy MoT Studio, 2025</p>
+    </div>
+</section>
+<!-- bagian contact -->
+
+<script>
+    const tombolMenu = document.getElementById('TombolMenu');
+    const tombolCloseMenu = document.getElementById('TombolCloseMenu');
+    const menuList = document.getElementById('menu');
+
+    tombolMenu.addEventListener('click', function() {
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+        menuList.classList.toggle('hidden');
+    });
+
+    tombolCloseMenu.addEventListener('click', function() {
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+        menuList.classList.toggle('hidden');
+    });
+
+    const mobileLinks = menuList.querySelectorAll('a');
+
+     mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+        menuList.classList.add('hidden');
+        tombolMenu.classList.toggle('hidden');
+        tombolCloseMenu.classList.toggle('hidden');
+    });
+  });
+</script>
+
+</body>
+</html>
