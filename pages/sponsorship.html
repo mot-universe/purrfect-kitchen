@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+    <link rel="stylesheet" href="../src/output.css"> 
+    <link rel="icon" href="src/image/webIcon.png" sizes="144x144">
+    <link rel="icon" href="https://purrfectkitchen.mot-universe.com/src/image/webIcon.png" sizes="144x144" type="image/png">
+    <link rel="apple-touch-icon" href="https://purrfectkitchen.mot-universe.com/src/image/webIcon.png">
+    <title>Purrfect Kitchen Sponsorship</title> 
+</head>
+<body class="font-playpen">
+    <!-- bagian navbar -->         
+    <nav class="bg-navbar w-full fixed top-0 left-0 flex items-center justify-between px-3 py-2 md:px-8 md:py-4 lg:px-10 xl:px-24 shadow-[0_4px_15px_rgba(0,0,0,.2)] z-30"> <a href="../index.html" class="text-base md:text-xl font-bold text-tesk1">Purrfect</a> 
+            <ul id="menu" class="bg-backdrop w-40 p-4 space-y-4 text-base absolute top-11 right-14 rounded-lg hidden xl:static xl:flex xl:flex-row xl:space-y-0 xl:space-x-6 xl:bg-transparent xl:w-auto xl:p-0"> 
+                <li><a href="../index.html" class="text-desk hover:text-tesk1 xl:text-sm">Home</a>
+                </li>                 
+                <li><a href="#preview" class="text-desk hover:text-tesk1 xl:text-sm">Preview</a>
+                </li>                 
+                <li><a href="#paket" class="text-desk hover:text-tesk1 xl:text-sm">Paket</a>
+                </li>                 
+                <li><a href="#contact" class="text-desk hover:text-tesk1 xl:text-sm">Contact</a>
+                </li>                 
+                <li><a href="https://mot-universe.com/purrfectkitchen-privacypolicy" target="_blank" class="text-desk hover:text-tesk1 xl:text-sm">Privacy Policy</a>
+                </li>                 
+            </ul>             
+            <div class="xl:hidden"> 
+                <button id="TombolMenu" name="TombolMenu" type="button" class="cursor-pointer text-desk text-xl"> <i class="ri-menu-line"></i> 
+                </button>                 
+                <button id="TombolCloseMenu" name="TombolCloseMenu" type="button" class="cursor-pointer text-desk text-xl hidden"> <i class="ri-close-large-line"></i> 
+                </button>                 
+            </div>             
+    </nav>         
+    <!-- bagian navbar -->
+
+    <!-- bagian headline -->
+    <section class="bg-features text-desk">
+        <div class="bg-[url('../src/image/pawPatternFeatures.png')] w-full py-24 flex flex-col items-center justify-center px-4 sm:px-10 xl:px-24">
+            <img src="../src/image/logo.png" alt="" class="w-32 pb-7 xl:w-48 2xl:pt-10">
+            <h1 class="text-center font-nunito font-medium text-3xl/relaxed leading-9 lg:text-4xl lg:leading-12 xl:px-20 2xl:text-6xl 2xl:leading-20">Jadikan Brand Anda Pengalaman Playable yang Menggemaskan, Bukan Sekadar Iklan</h1>
+            <p class="text-center text-sm/relaxed pt-4 sm:px-10 lg:px-36 lg:text-base/relaxed 2xl:text-xl 2xl:px-80">Integrasikan brand anda ke dunia Purrfect Kitchen dan jangkau pemain aktif melalui gameplay, komik, dan koleksi item. Menciptakan brand awareness organik dan pengalaman yang benar - benar berkesan, bukan sekadar tampilan iklan.</p>
+            <div class="grid grid-cols-1 grid-rows-3 gap-4 px-10 pt-14 font-nunito lg:grid-cols-3 lg:grid-rows-1 xl:gap-8 2xl:gap-12">
+                <a href="https://play.google.com/store/apps/details?id=com.MoT.PurrfectKitchen&pli=1" target="_blank"> 
+                    <button class="bg-bgA_dark w-full flex items-center space-x-5 px-6 py-2 mx-auto border-4 border-borderA rounded-full shadow-[0_10px_25px_rgba(0,0,0,.35)] cursor-pointer transition-all duration-150 hover:brightness-110 hover:scale-110 active:translate-y-1 active:shadow-[0_3px_0_#5C3A32] focus:outline-none focus:ring-2 focus:ring-tesk1 lg:mx-0 lg:ml-5 lg:mb-9"> 
+                            <div class=""> 
+                                <i class="ri-calendar-check-line text-tesk1 text-lg"></i> 
+                            </div>                         
+                            <div class=""> 
+                                <p class="text-left text-sm/loose text-tesk1 font-bold lg:text-md">Book Meeting 30 Menit</p> 
+                            </div>                         
+                    </button> 
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.MoT.PurrfectKitchen&pli=1" target="_blank"> 
+                    <button class="bg-bgA_dark w-full flex items-center space-x-5 px-6 py-1 mx-auto border-4 border-borderA rounded-full shadow-[0_10px_25px_rgba(0,0,0,.35)] cursor-pointer transition-all duration-150 hover:brightness-110 hover:scale-110 active:translate-y-1 active:shadow-[0_3px_0_#5C3A32] focus:outline-none focus:ring-2 focus:ring-tesk1 lg:mx-0 lg:ml-5 lg:mb-9"> 
+                            <div class=""> 
+                                <i class="ri-folder-video-fill text-tesk1 text-lg"></i>
+                            </div>                         
+                            <div class=""> 
+                                <p class="text-left text-base/loose text-tesk1 font-bold lg:text-md">Lihat Demo</p> 
+                            </div>                         
+                    </button> 
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.MoT.PurrfectKitchen&pli=1" target="_blank"> 
+                    <button class="bg-bgA_dark w-full flex items-center space-x-5 px-6 py-2 mx-auto border-4 border-borderA rounded-full shadow-[0_10px_25px_rgba(0,0,0,.35)] cursor-pointer transition-all duration-150 hover:brightness-110 hover:scale-110 active:translate-y-1 active:shadow-[0_3px_0_#5C3A32] focus:outline-none focus:ring-2 focus:ring-tesk1 lg:mx-0 lg:ml-5 lg:mb-9"> 
+                            <div class=""> 
+                                <i class="ri-download-cloud-fill text-tesk1 text-lg"></i>
+                            </div>                         
+                            <div class=""> 
+                                <p class="text-left text-sm/loose text-tesk1 font-bold lg:text-md">Download Proposal</p> 
+                            </div>                         
+                    </button> 
+                </a>
+            </div>
+            <h2 class="text-center font-nunito text-lg/relaxed font-bold pt-10 pb-4">Data Audience</h2>
+            <div class="grid grid-cols-2 grid-rows-3 gap-2 sm:grid-cols-3 sm:grid-rows-2 lg:gap-5">
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Target Audience</h3>
+                    <p class="text-sm text-center">anak kecil - dewasa</p>
+                </div>
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Downloader</h3>
+                    <p class="text-lg text-center">5K+</p>
+                </div>
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Region</h3>
+                    <p class="text-sm text-center">Indonesia, singapore, malaysia, korea</p>
+                </div>
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Platform</h3>
+                    <p class="text-sm text-center">Android</p>
+                </div>
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Daily Active User</h3>
+                    <p class="text-lg text-center">3,8K</p>
+                </div>
+                <div class="bg-bgA_dark p-2 rounded-md border-2 border-borderB shadow-md lg:p-8">
+                    <h3 class="text-center font-medium">Avg. Playtime</h3>
+                    <p class="text-lg text-center">20 - 25 menit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bagian headline -->
+
+    <!-- why this work -->
+     <section id="preview" class="bg-about text-backdrop">
+        <div class="bg-[url(image/pawPattern2.png)] bg-cover bg-center bg-no-repeat px-4 pb-10 sm:px-10 xl:px-24">
+            <h1 class="text-center font-nunito font-bold text-lg/relaxed pt-10">Why this work?</h1>
+            <div class="grid grid-cols-1 gap-6 py-5 lg:grid-cols-3 lg:gap-2">
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-gamepad-line text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Brand Story yang Bisa Dimainkan</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Bukan hanya ditampilkan, tapi dimainkan. Brand Anda diintegrasikan ke dalam cerita komik dan alur game, membuat pemain terlibat secara emosional, bukan sekadar melihat logo.</p>
+                    </div>
+                </div>
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-cake-3-fill text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Produk jadi Bagian dari Gameplay</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Makanan dan minuman brand Anda hadir sebagai item playable: dimasak, dikoleksi, digunakan, dan di-upgrade oleh pemain. Ini menciptakan brand recall alami lewat interaksi berulang.</p>
+                    </div>
+                </div>
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-t-shirt-fill text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Karakter & Skin Bertema Brand</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Brand tampil menjadi skin karakter, kostum, dan tema visual yang menyatu dengan dunia Purrfect Kitchen, menciptakan asosiasi positif dan daya tarik koleksi.</p>
+                    </div>
+                </div>
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-calendar-event-fill text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Event Terbatas, Engagement Tinggi</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Kolaborasi hadir dalam bentuk Limited Time Event (2-4 minggu), mendorong urgency, FOMO, dan partisipasi aktif dari pemain.</p>
+                    </div>
+                </div>
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-clapperboard-fill text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Repeat Exposure Tanpa Terasa Mengganggu</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Berbeda dari iklan biasa, brand muncul secara natural di berbagai titik: story, gameplay, UI, dan reward. Ini menciptakan repeated exposure tanpa rasa “diiklankan.”</p>
+                    </div>
+                </div>
+                <div class="bg-desk mt-2 rounded-xl border-2 border-pk3 p-4 shadow-lg">
+                    <div class="flex items-center justify-start space-x-2 pb-2">
+                        <i class="ri-pie-chart-fill text-xl"></i>
+                        <h2 class="font-bold text-sm/relaxed">Terukur & Bisa Dilaporkan</h2>
+                    </div>
+                    <div class="px-1">
+                        <p class="text-sm/relaxed text-justify">Setiap kampanye dapat diukur secara jelas mulai dari Impressions, Jumlah peserta, Completion rate, Retention, Waktu bermain, dan Engagement. Brand tidak hanya dapat exposure, tapi data nyata.</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center font-nunito font-bold text-lg/relaxed pt-10">Preview Mockup Brand Sample</h1>
+            <div class="grid grid-cols-2 gap-4 py-5 lg:grid-cols-4 xl:gap-8">
+                <div class=""> 
+                    <img src="../src/image/new/Playstore03.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>                 
+                <div class=""> 
+                    <img src="../src/image/new/Playstore04.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>                 
+                <div class=""> 
+                    <img src="../src/image/new/Playstore02.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>                 
+                <div class=""> 
+                    <img src="../src/image/new/Playstore01.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>
+            </div>
+            <p class="px-2 text-xs/relaxed sm:text-sm/relaxed">"brand Anda bisa menggantikan brand sample, dari mulai cerita, skin karakter, makanan, minuman, nama & logo"</p>
+            <h1 class="text-center font-nunito font-bold text-lg/relaxed pt-10">Menu & Stage Content</h1>
+            <h2>Story</h2>
+            <div class="grid grid-cols-2 gap-4 py-5 lg:grid-cols-4 xl:gap-8">
+                <div class=""> 
+                    <img src="../src/image/new/Playstore03.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>                 
+                <div class=""> 
+                    <img src="../src/image/new/Playstore04.png" alt="" class="w-full rounded-md shadow-md border-2 border-borderB"> 
+                </div>                 
+            </div>
+            <h2 class="pt-5">Skin Karakter</h2>
+            <div class="grid grid-cols-3 gap-2 py-5 lg:grid-cols-6 xl:gap-8 ">
+                <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                    <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                        <div class="relative flex flex-col justify-center">
+                            <img src="../src/image/SkinCard/Pikachu.png" class="z-10" alt="" srcset="">
+                            <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                            </svg>
+                        </div>
+                        <!-- kotak bawah -->
+                        <div class="relative w-full bg-navbar"> 
+                            <h3 class="text-xs/loose text-tesk1 font-medium tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pikachu</h3>
+                    </div>
+                        <!-- kotak bawah -->
+                    </div>
+                </div>         
+                <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                    <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                        <div class="relative flex flex-col justify-center">
+                            <img src="../src/image/SkinCard/Pikachu.png" class="z-10" alt="" srcset="">
+                            <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                            </svg>
+                        </div>
+                        <!-- kotak bawah -->
+                        <div class="relative w-full bg-navbar"> 
+                            <h3 class="text-xs/loose text-tesk1 font-medium tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pikachu</h3>
+                    </div>
+                        <!-- kotak bawah -->
+                    </div>
+                </div>         
+                <div class="w-full rounded-xl overflow-hidden bg-features shadow-lg border-2 border-borderA">
+                    <div class="relative bg-[url(/src/image/SkinCard/bg_card.png)] bg-cover bg-center">
+                        <div class="relative flex flex-col justify-center">
+                            <img src="../src/image/SkinCard/Pikachu.png" class="z-10" alt="" srcset="">
+                            <svg class="absolute bottom-0 left-1/2 -translate-x-1/2 pb-1 z-0 w-1/2" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="100" cy="20" rx="70" ry="10" fill="rgba(0,0,0,0.20)" />
+                            </svg>
+                        </div>
+                        <!-- kotak bawah -->
+                        <div class="relative w-full bg-navbar"> 
+                            <h3 class="text-xs/loose text-tesk1 font-medium tracking-wider text-center py-1 lg:py-4 lg:text-base/loose">Pikachu</h3>
+                    </div>
+                        <!-- kotak bawah -->
+                    </div>
+                </div>         
+            </div>
+            <h2 class="pt-5">Makanan & Minuman</h2>
+            <div class="grid grid-cols-1 gap-6 py-5 lg:grid-cols-2 xl:gap-4 xl:grid-cols-3">
+                <div class="w-full rounded-2xl overflow-hidden bg-contact shadow-lg border-2 border-borderA text-desk">
+                    <div class="">
+                        <img src="../src/image/food/sempol.png" class="w-full rounded-2xl" alt="" srcset="">
+                    </div>
+                    <div class="relative w-full bg-[url(/src/image/food/PawFood4.png)] bg-cover">
+                        <div class="absolute left-8 -top-8 p-2 rounded-full border-4 border-contact bg-about">
+                            <img src="../src/image/food/iconFood/Icon_Sempol.png" alt="" class="w-10">
+                        </div>
+                        <div class="p-5 lg:py-4">
+                            <h2 class="text-xl/loose tracking-wider font-bold pt-4 pb-2">Sempol</h2> 
+                            <p class="text-xs/relaxed tracking-wider text-justify lg:text-sm/loose">Sempol adalah jajanan khas Indonesia yang populer, berasal dari desa Sempol di Malang, Jawa Timur. Terbuat dari campuran daging giling (umumnya ayam) dan tepung tapioka, adonan ini dibentuk lonjong, ditusuk dengan tusuk bambu seperti sate, kemudian dicelupkan ke dalam telur dan digoreng. 
+                            Jajanan ini memiliki tekstur kenyal dan biasanya disajikan dengan saus sambal pedas atau saus kacang. </p>
+                        </div>
+                    </div>
+                </div>        
+                <div class="w-full rounded-2xl overflow-hidden bg-contact shadow-lg border-2 border-borderA text-desk">
+                    <div class="">
+                        <img src="../src/image/food/sempol.png" class="w-full rounded-2xl" alt="" srcset="">
+                    </div>
+                    <div class="relative w-full bg-[url(/src/image/food/PawFood4.png)] bg-cover">
+                        <div class="absolute left-8 -top-8 p-2 rounded-full border-4 border-contact bg-about">
+                            <img src="../src/image/food/iconFood/Icon_Sempol.png" alt="" class="w-10">
+                        </div>
+                        <div class="p-5 lg:py-4">
+                            <h2 class="text-xl/loose tracking-wider font-bold pt-4 pb-2">Sempol</h2> 
+                            <p class="text-xs/relaxed tracking-wider text-justify lg:text-sm/loose">Sempol adalah jajanan khas Indonesia yang populer, berasal dari desa Sempol di Malang, Jawa Timur. Terbuat dari campuran daging giling (umumnya ayam) dan tepung tapioka, adonan ini dibentuk lonjong, ditusuk dengan tusuk bambu seperti sate, kemudian dicelupkan ke dalam telur dan digoreng. 
+                            Jajanan ini memiliki tekstur kenyal dan biasanya disajikan dengan saus sambal pedas atau saus kacang. </p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+     </section>
+    <!-- why this work -->
+
+    <!-- paket sponsor -->
+     <section id="paket" class="bg-news w-full"> 
+            <h1 class="text-center font-nunito font-bold text-lg/relaxed pt-10 text-backdrop">Paket Sponsor</h1>            
+            <div class="grid grid-cols-1 gap-10 pt-5 px-10 pb-20 sm:grid-cols-2 md:grid-cols-3 md:px-8 md:gap-4 xl:px-36 2xl:px-64 2xl:gap-8"> 
+                <!-- card 1 -->                 
+                <div class="bg-cardBG rounded-2xl overflow-hidden shadow-lg flex flex-col h-96">                      
+                    <div class="text-[#FAF3C0]">
+                        <div class="bg-cardBorder py-6">
+                            <h2 class="text-lg/relaxed text-center font-bold">Starter</h2>
+                            <div class="flex gap-2 justify-center pt-2">
+                                <p class="text-4xl font-bold font-nunito">IDR 5jt</p>
+                                <p class="text-sm line-through">10jt</p>
+                            </div>
+                        </div>
+                        <ul class="text-cardText list-disc px-16 pt-5 sm:px-14 md:px-10 2xl:px-20">
+                            <li class="text-sm mb-2">1 branded stage</li>                             
+                            <li class="text-sm mb-2">1 character skin</li>                             
+                            <li class="text-sm mb-2">3 food items</li>                             
+                            <li class="text-sm mb-2">2-week event</li>
+                        </ul>
+                    </div>                     
+                </div>                 
+                <!-- card 1 -->                 
+                <!-- card 2 -->                 
+                <div class="bg-cardBG rounded-2xl overflow-hidden shadow-lg flex flex-col h-96">                      
+                    <div class="text-[#FAF3C0]">
+                        <div class="bg-cardBorder py-6">
+                            <h2 class="text-lg/relaxed text-center font-bold">Business</h2>
+                            <div class="flex gap-2 justify-center pt-2">
+                                <p class="text-4xl font-bold font-nunito">IDR 10jt</p>
+                                <p class="text-sm line-through">20K</p>
+                            </div>
+                        </div>
+                        <ul class="text-cardText list-disc px-16 pt-5 sm:px-14 md:px-10 2xl:px-20">
+                            <li class="text-sm mb-2">2 stages</li>                             
+                            <li class="text-sm mb-2">Full story integration</li>                             
+                            <li class="text-sm mb-2">2 skins</li>                             
+                            <li class="text-sm mb-2">4 food items</li>
+                            <li class="text-sm mb-2">3-week event</li>
+                        </ul>
+                    </div>                     
+                </div>                 
+                <!-- card 2 -->                 
+                <!-- card 3 -->                 
+                <div class="bg-cardBG rounded-2xl overflow-hidden shadow-lg flex flex-col h-96">                      
+                    <div class="text-[#FAF3C0]">
+                        <div class="bg-cardBorder py-6">
+                            <h2 class="text-lg/relaxed text-center font-bold">Premium</h2>
+                            <div class="flex gap-2 justify-center pt-2">
+                                <p class="text-4xl font-bold font-nunito">IDR 20jt</p>
+                                <p class="text-sm line-through">30jt</p>
+                            </div>
+                        </div>
+                        <ul class="text-cardText list-disc px-16 pt-5 sm:px-14 md:px-10 2xl:px-20">
+                            <li class="text-sm mb-2">Full branded world</li>                             
+                            <li class="text-sm mb-2">Custom storyline</li>
+                            <li class="text-sm mb-2">Custom UI</li>                             
+                            <li class="text-sm mb-2">Multiple skins</li>                             
+                            <li class="text-sm mb-2">Full menu</li>
+                            <li class="text-sm mb-2">4-week event</li>
+                        </ul>
+                    </div>                     
+                </div>                 
+                <!-- card 3 -->                 
+                               
+            </div>             
+        </section>
+    <!-- paket sponsor -->
+
+    <!-- penutup -->
+     <section>
+        <div class="bg-cardTitle text-tesk1 w-full min-h-3/4 flex flex-col items-center justify-center px-4 py-20 text-center"> 
+            <h2 class="text-2xl font-bold lg:text-4xl">Tertarik Berkolaborasi?</h2> 
+            <p class="text-base pt-4 font-medium lg:text-xl lg:pt-4">Mari Ciptakan Pengalaman Playable yang Menggemaskan Bersama!</p> 
+        </div>
+     </section>
+    <!-- penutup -->
+
+    <!-- bagian contact -->         
+        <section id="contact" class="bg-contact w-full min-h-3/4"> 
+            <div class="flex flex-col items-center justify-center px-4 py-20 text-center text-desk"> 
+                <h2 class="text-3xl font-bold lg:text-7xl">Purrfect Kitchen</h2> 
+                <p class="text-xl font-medium lg:text-4xl lg:pt-2">Cat & Cook</p> 
+                <div class="flex flex-col space-y-2 mt-20 text-center"> 
+                    <div class="text-sm lg:text-base"> <i class="ri-phone-fill"></i> 
+                        +62 831 7502 0990
+                    </div>                     
+                    <div class="text-sm lg:text-base"> <i class="ri-mail-open-fill"></i> 
+                        contact@mot-universe.com
+                    </div>                     
+                    <div class="text-sm lg:text-base"> <i class="ri-map-pin-2-fill"></i> 
+                        Imperial Exclusive, Jl. Graha Mulia Raya
+                        C-8, Tasikmadu, Kec. Lowokwaru, Kota
+                        Malang, Jawa Timur 65143
+                    </div>                     
+                </div>                 
+                <div class="flex space-x-2 mt-8 lg:space-x-5"> 
+                    <a href="https://www.instagram.com/purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-instagram-fill"></i> </a> 
+                    <a href="https://www.facebook.com/profile.php?id=61583467877436" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-facebook-circle-fill"></i> </a> 
+                    <a href="https://www.tiktok.com/@purrfectkitchen.game" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-tiktok-fill"></i> </a> 
+                    <a href="https://x.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-twitter-x-fill"></i> </a> 
+                    <a href="https://www.youtube.com/@PurrfectKitchenOfficial" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-youtube-fill"></i> </a> 
+                    <a href="https://mot-universe.com/purrfectkitchen" target="_blank" class="w-12 h-12 bg-about rounded-full flex items-center justify-center text-contact text-2xl cursor-pointer shadow-md transition-all duration-150 hover:scale-110 active:translate-y-1 lg:w-16 lg:h-16 lg:text-4xl"> <i class="ri-global-fill"></i> </a> 
+                </div>                 
+                <p class="text-xs mt-32">Copyright &copy MoT Studio, 2025</p> 
+            </div>             
+        </section>         
+        <!-- bagian contact -->  
+
+        <script>
+            const tombolMenu = document.getElementById('TombolMenu');
+            const tombolCloseMenu = document.getElementById('TombolCloseMenu');
+            const menuList = document.getElementById('menu');
+
+               tombolMenu.addEventListener('click', function() {
+               tombolMenu.classList.toggle('hidden');
+               tombolCloseMenu.classList.toggle('hidden');
+               menuList.classList.toggle('hidden');
+               });
+
+               tombolCloseMenu.addEventListener('click', function() {
+               tombolMenu.classList.toggle('hidden');
+               tombolCloseMenu.classList.toggle('hidden');
+               menuList.classList.toggle('hidden');
+               });
+
+            const mobileLinks = menuList.querySelectorAll('a');
+
+                mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                menuList.classList.add('hidden');
+                tombolMenu.classList.toggle('hidden');
+                tombolCloseMenu.classList.toggle('hidden');
+                });
+            });
+        </script>  
+</body>
+</html>

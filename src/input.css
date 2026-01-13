@@ -27,4 +27,10 @@
         --color-gallery:#F3E9C7;
         --color-news:#F6E07F;
         --color-contact:#7E5147;
+
+        --color-cardBG: #FFF7D6;
+        --color-cardBG1: #7c6b39;
+        --color-cardBorder: #7E5147;
+        --color-cardTitle: #4A2C1F;
+        --color-cardText: #6B4A3A;
 }
